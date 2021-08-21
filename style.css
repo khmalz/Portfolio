@@ -140,11 +140,16 @@ body {
 #contact h2 {
    margin-top: -20px;
 }
+
+.btn-kirim:hover {
+   background-color: #033d94;
+}
 /* Akhir Contact */
 
 /* footer */
 footer {
    background-color: #0055ff;
+   margin-top: -3px !important;
 }
 /* Akhir footer */
 
@@ -255,7 +260,7 @@ footer {
    }
 
    .card-buatan {
-      margin-top: -11vh;
+      margin-top: -9vh;
       margin-left: 6px;
       margin-right: auto;
    }
