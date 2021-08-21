@@ -134,11 +134,19 @@ body {
    .gambar {
       padding-top: 12em;
       background-position: 0 -230px;
-      height: 75vh;
+      height: 85vh;
    }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
+   .gambar {
+      padding-top: 12em;
+      background-position: 0 -50px;
+      height: 85vh;
+   }
+}
+
+@media screen and (max-width: 990px) {
    .gambar {
       background-position: 0 0;
       height: 100vh;
@@ -159,6 +167,10 @@ body {
 
    .kolom {
       margin-right: 50px;
+   }
+
+   .card-buatan {
+      margin-top: -25vh;
    }
 }
 
