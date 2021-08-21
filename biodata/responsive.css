@@ -1,0 +1,81 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 { font-size: 2.1em;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+td img {width: 92%;
+        height: 340px;
+}
+
+.header {
+    font-weight: bolder;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #2be9ba;: ;
+}
+
+tr {
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+   .header {
+      font-size: 1.1em;
+   }
+   table {
+      width: 90%;
+   }
+
+   .data {
+      width: 15%;
+   }
+   .ket {
+      width: 25%;
+   }
+   .foto {
+      width: 25%;
+   }
+   td img {
+       width: 95%;
+      height:  330px;
+   }
+   h1 {
+      font-size: 1.5em;
+   }
+   tr {
+      font-size: 0.8em;
+   }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+       font-size: 0.7em;
+    }
+    table {
+       width: 95%;
+    }
+    
+    .data {
+       width: 15%;
+    }
+    .ket {
+       width: 25%;
+    }
+    .foto {
+       width: 25%;
+    }
+    td img {
+       height:  220px;
+    }
+    h1 {
+       font-size: 1em;
+    }
+    tr {
+       font-size: 0.55em;
+    }
+}

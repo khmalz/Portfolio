@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+body {
+   height: 2000px;
+}
+
+/* Navbar */
+.navbar-sendiri {
+   background: #369de7b3 !important;
+}
+
+.navbar-brand {
+   font-family: "Cairo", sans-serif;
+}
+
+.navbar-nav {
+   font-size: 1em;
+}
+
+.navbar-nav:hover {
+   font-weight: bold !important;
+}
+
+.navbar-nav a:hover {
+   color: white !important;
+}
+
+.navbar-toggler {
+   border-style: none !important;
+}
+
+/* Akhir Navbar */
+
+/* Welcome */
+.gambar {
+   padding-top: 9rem;
+   background-image: url(img/background.jpg);
+   background-size: cover;
+   height: 100vh;
+   background-position: 0 -250px;
+   background-attachment: fixed;
+   color: white;
+}
+
+.gambar h1 {
+   font-family: "Saira Condensed", sans-serif;
+   padding-bottom: 50px;
+}
+
+.paragraf {
+   font-weight: 500;
+   font-family: "Ubuntu Condensed", sans-serif;
+}
+
+/* Akhir Welcome */
+
+/* jumbotron */
+.jumbotron {
+   padding-top: 4rem;
+   background-color: #e2edff;
+}
+
+.header {
+   border: 2.5px solid white;
+}
+
+.more:hover {
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(255, 255, 255);
+   color: #0d6efd;
+}
+/* Akhir Jumbotron */
+
+/* Card */
+.card-buatan {
+   margin-top: -36vh;
+}
+
+.icon {
+   margin-top: 7px;
+   margin-bottom: 7px;
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+   color: #0d6efd;
+}
+
+.kotak {
+   padding: 12px;
+}
+
+.kotak-icon {
+   transition: 720ms;
+}
+
+.kotak-icon:hover {
+   background-color: #0d6efd;
+   color: white;
+}
+
+.kotak-icon:hover i {
+   color: white;
+}
+/* Akhir Card */
+
+/* About */
+.kata {
+   font-family: "Nanum Gothic", sans-serif;
+}
+/* Akhir About */
+
+/* Project */
+#project {
+   background-color: #e2edff;
+}
+
+.img-card {
+   padding: 8px 10px 0 10px;
+}
+
+.card-text {
+   font-family: "Nanum Gothic", sans-serif;
+}
+/* Akhir Project */
+
+/* responsive breakpoint */
+@media screen and (max-width: 1400px) {
+   .gambar {
+      padding-top: 12em;
+      background-position: 0 -230px;
+      height: 75vh;
+   }
+}
+
+@media screen and (max-width: 1020px) {
+   .gambar {
+      background-position: 0 0;
+      height: 100vh;
+   }
+   .navbar-hamburger {
+      border-radius: 10px;
+      padding: 3px 0 2px 5px;
+      background-color: white !important;
+   }
+
+   .navbar-hamburger a {
+      color: #369de7b3 !important;
+   }
+
+   .navbar-hamburger a:hover {
+      color: #bad8ea !important;
+   }
+
+   .kolom {
+      margin-right: 50px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .gambar {
+      background-position: -30px -50px;
+      padding-top: 15rem;
+      height: 92vh;
+   }
+
+   .gambar h1 {
+      margin-bottom: 30px !important;
+   }
+
+   .navbar-hamburger {
+      margin: 0 0px;
+   }
+
+   .more {
+      font-size: 1.1em;
+      width: 160px;
+      margin-bottom: 10px;
+   }
+
+   .card-buatan {
+      margin-top: -12vh;
+   }
+
+   .kolom {
+      margin-right: auto;
+      margin-bottom: 20px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .gambar {
+      background-position: -160px -20px;
+      height: 95vh;
+      padding-top: 12rem;
+   }
+
+   .navbar-hamburger {
+      margin: 0 0;
+   }
+}
+
+@media screen and (max-width: 390px) {
+   .gambar {
+      background-position: -140px 0;
+      height: 105vh;
+      padding-top: 11rem;
+      /* padding: 7rem 20px 7rem; */
+      padding-right: 10px;
+      padding-left: 10px;
+   }
+
+   .gambar h1 {
+      margin-bottom: -10px !important;
+   }
+
+   .gambar p {
+      font-size: x-medium !important;
+   }
+
+   .card-buatan {
+      margin-top: -11vh;
+      margin-left: 6px;
+      margin-right: auto;
+   }
+
+   #about h2 {
+      margin-top: 15px !important;
+   }
+}
+
+@media screen and (max-width: 330px) {
+   .gambar {
+      background-position: -140px 0;
+      height: 105vh;
+      padding-top: 5.4rem;
+      /* padding: 7rem 20px 7rem; */
+      padding-right: 20px;
+      padding-left: 20px;
+   }
+
+   .gambar h1 {
+      margin-bottom: -10px !important;
+   }
+
+   .gambar p {
+      font-size: medium !important;
+   }
+
+   .card-buatan {
+      margin-top: -3vh;
+   }
+}
