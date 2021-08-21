@@ -81,7 +81,7 @@ body {
 }
 
 .icon {
-   margin-top: 7px;
+   margin-top: 0px;
    margin-bottom: 7px;
 }
 
@@ -92,7 +92,8 @@ body {
 }
 
 .kotak {
-   padding: 12px;
+   padding: 10px;
+   padding-top: 0;
 }
 
 .kotak-icon {
@@ -110,14 +111,20 @@ body {
 /* Akhir Card */
 
 /* About */
+
 .kata {
    font-family: "Nanum Gothic", sans-serif;
+   margin-bottom: -30px;
 }
 /* Akhir About */
 
 /* Project */
 #project {
    background-color: #e2edff;
+}
+
+#project h2 {
+   margin-top: -25px;
 }
 
 .img-card {
@@ -128,6 +135,18 @@ body {
    font-family: "Nanum Gothic", sans-serif;
 }
 /* Akhir Project */
+
+/* Contact */
+#contact h2 {
+   margin-top: -20px;
+}
+/* Akhir Contact */
+
+/* footer */
+footer {
+   background-color: #0055ff;
+}
+/* Akhir footer */
 
 /* responsive breakpoint */
 @media screen and (max-width: 1400px) {
