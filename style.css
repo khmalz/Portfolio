@@ -206,6 +206,11 @@ footer {
       margin-top: -20vh;
    }
 }
+@media screen and (max-width: 850px) {
+   .card-buatan {
+      margin-top: -13vh;
+   }
+}
 
 @media screen and (max-width: 768px) {
    .gambar {
@@ -218,11 +223,6 @@ footer {
       margin-bottom: 30px !important;
    }
 
-   /* .gambar .paragraf {
-      padding-right: 50px;
-      padding-left: 50px;
-   } */
-
    .navbar-hamburger {
       margin: 0 0px;
    }
@@ -234,7 +234,7 @@ footer {
    }
 
    .card-buatan {
-      margin-top: -16vh;
+      margin-top: -20vh;
    }
 
    .card-text-4 {
