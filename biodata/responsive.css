@@ -1,81 +1,60 @@
 body {
-    background-color: aliceblue;
-    font-family: 'Roboto', sans-serif;
+   background-color: aliceblue;
+   font-family: "Roboto", sans-serif;
 }
 
-h1 { font-size: 2.1em;
-    text-align: center;
-    margin-bottom: 1.6rem;
-}
-
-td img {width: 92%;
-        height: 340px;
+h1 {
+   font-size: 2.1em;
+   text-align: center;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
 }
 
 .header {
-    font-weight: bolder;
-    font-size: 1.1em;
-    text-align: center;
-    background-color: #2be9ba;: ;
+   font-weight: bolder;
+   font-size: 1.1em;
+   text-align: center;
+   background-color: #2be9ba;
 }
 
 tr {
-    font-size: 0.9em;
+   font-size: 0.9em;
 }
 
 @media screen and (max-width: 768px) {
    .header {
-      font-size: 1.1em;
+      font-size: 1em;
    }
    table {
       width: 90%;
    }
-
-   .data {
-      width: 15%;
-   }
-   .ket {
-      width: 25%;
-   }
-   .foto {
-      width: 25%;
-   }
-   td img {
-       width: 95%;
-      height:  330px;
-   }
    h1 {
-      font-size: 1.5em;
+      font-size: 1.3em;
    }
    tr {
-      font-size: 0.8em;
+      font-size: 0.9em;
    }
 }
 
-@media screen and (max-width: 450px) {
-    .header {
-       font-size: 0.7em;
-    }
-    table {
-       width: 95%;
-    }
-    
-    .data {
-       width: 15%;
-    }
-    .ket {
-       width: 25%;
-    }
-    .foto {
-       width: 25%;
-    }
-    td img {
-       height:  220px;
-    }
-    h1 {
-       font-size: 1em;
-    }
-    tr {
-       font-size: 0.55em;
-    }
+@media screen and (max-width: 500px) {
+   .header {
+      font-size: 0.9em;
+   }
+   table {
+      width: 95%;
+   }
+
+   h1 {
+      font-size: 1.2em;
+   }
+   tr {
+      font-size: 0.85em;
+   }
+   table {
+      text-align: start;
+   }
+
+   .baris2 {
+      text-align: end;
+   }
 }
